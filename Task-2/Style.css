@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    margin:2em;
+    color: aliceblue;
+}
+body{
+    height:100vh;
+    /* background: linear-gradient(#213555, #4F709C);   */
+    background-color: #27374D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main{
+    /* background:linear-gradient(#F5EFE7 ,#D8C4B6); */
+    background-color: #DDE6ED;
+    border:2px solid rgb(76, 32, 224) ;
+    border-radius: 10px;
+    width:60%;
+    height:70vh;
+    display: grid;
+    grid-template-rows: 0.2fr 0.2fr 1.5fr 1.5fr;
+    gap:.5em;
+    
+}
+ .head{
+    font-weight: bold;
+    font-size: 1.3em;
+    font-style: "Times New Roman", Times, serif;;
+    margin-left: auto;
+    margin-right: auto;
+}
+input{
+  margin-left: 1em;
+  margin-right: 1em;
+  border-radius: 5px;
+  padding-left: 0.5rem ;
+} 
+
+.not_completed{
+    margin-left: 1em;
+    margin-right: 1em;
+
+}
+.completed{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+/* icon styling */
+i{
+    float:right;
+    margin-left: 10px;
+}
+
+
+/* Hover effect */
+
+
